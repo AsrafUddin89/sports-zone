@@ -1,4 +1,9 @@
 @media screen and (max-width:576px) {
+  
+    *{
+        margin: 0 auto;
+       
+    }
     .nav-container{
         flex-direction: column;
     }
@@ -11,5 +16,24 @@
     }
     .banner-container{
         flex-direction: column-reverse;
+        align-items: center;
+       
     }
+    .banner-content, .banner-image{
+        width: 100%;
+
+    }
+    .funny-section{
+        width: 100%;
+    }
+    .funny-videos{
+        
+        flex-direction: column;
+        
+    }
+    .funny-card{
+        margin-top: 50px;
+    }
+    
+
 }
