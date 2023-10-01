@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
 
 }
 
@@ -214,8 +216,8 @@ body {
 
 .play-content {
     text-align: center;
-    margin-bottom: 200px;
-    
+
+
 }
 
 .play-title {
@@ -237,28 +239,68 @@ body {
     font-weight: 400;
 
 }
+
 .play-image {
     width: 50%;
     margin-top: 100px;
+
 }
 
 .play-image img {
     width: 550px;
     height: 550px;
-    margin-left: 100px;
+
 
 }
 
-.badge-picture img{
+.badge-picture img {
     width: 300px;
     height: 350px;
-    
-    
+
+
 }
-.badge-picture{
+
+.badge-picture {
     position: relative;
     bottom: 200px;
     right: 100px;
+}
+
+/*button Section Style*/
+.btn-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-group{
+    border: 2px solid #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 245px;
+    height: 80px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.btn-group h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B0223;
+    border-color: #FFF;
+}
+.btn-group button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.btn-group button:hover{
+    color: #F948B2;
+    border-color: #F948B2;
+    background-color: #FFF;
     
-    
+
 }
