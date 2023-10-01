@@ -24,21 +24,15 @@ body {
 }
 
 .logo-container {
-
     display: flex;
-
     align-items: center;
-    width: 50%;
+    gap: 15px;
 }
-
 .logo-container img {
     width: 85px;
     height: 40px;
-    margin-right: 15px;
 }
-
-.logo-container p {
-    text-align: center;
+.logo-container p{
     font-size: 45px;
     font-weight: 700;
 
@@ -267,11 +261,12 @@ body {
 }
 
 /*button Section Style*/
-.btn-section{
+.btn-section {
     display: flex;
     flex-wrap: wrap;
 }
-.btn-group{
+
+.btn-group {
     border: 2px solid #FFF;
     display: flex;
     justify-content: space-around;
@@ -282,13 +277,14 @@ body {
     background: #FFF;
 }
 
-.btn-group h3{
+.btn-group h3 {
     font-size: 20px;
     font-weight: 600;
     color: #0B0223;
     border-color: #FFF;
 }
-.btn-group button{
+
+.btn-group button {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -297,10 +293,81 @@ body {
     border-radius: 50px;
     cursor: pointer;
 }
-.btn-group button:hover{
+
+.btn-group button:hover {
     color: #F948B2;
     border-color: #F948B2;
     background-color: #FFF;
-    
+}
 
+/*Footer Section*/
+.footer-section {
+    width: 1400px;
+    margin: 0 auto;
+    height: 400px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background-color: #8758F1;
+}
+.footer-logo{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo img {
+    width: 85px;
+    height: 40px;
+}
+.footer-logo p{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.footer-list ul {
+    
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    padding: 10px;
+    gap: 60px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.footer-list ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-icons{
+    
+    text-align: center;
+    
+    margin-top: 35px;
+    
+}  
+.fa-brands{
+    font-size: 3rem;
+    width: 5rem;
+    height: 5rem;
+}
+.condition-list ul{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    padding: 10px;
+    gap: 40px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+.condition-list ul li a{
+    text-decoration: none;
+    color:#FFFFFF99;
+}
+.autorization-comment{
+    text-align: center;
+    margin-top: 15px;
 }
