@@ -15,12 +15,13 @@ body {
 
 /*Nav Section Style*/
 .nav-container {
-
+    
     min-height: 50px;
     display: flex;
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+    margin-top: 3rem;
 }
 
 .logo-container {
@@ -67,6 +68,9 @@ body {
     padding: 18px 30px;
     font-size: 18px;
     font-weight: 500;
+    width: 280px;
+    border-color: #FFF;
+    text-align: center;
 }
 
 /*Banner section styles*/
@@ -109,21 +113,21 @@ body {
 }
 
 .banner-content a {
-    display: flex;
-    flex-direction: column;
     margin-top: 1rem;
     color: #534C64;
-    align-items: center;
-    font-weight: 500;
-    text-transform: lowercase;
+    font-weight: 500; 
     text-decoration: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .button-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    text-align: center;
+   
+    gap: 1.2rem;
     margin-top: 15px;
 }
 
@@ -141,11 +145,11 @@ body {
 
     padding: 15px 35px;
 
-    gap: 10px;
+    
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase;
+   
     border-radius: 48px;
     background: #4EC5F7;
 }
@@ -191,6 +195,45 @@ body {
 .funny-card {
     width: 350px;
     height: 400px;
+}
+.funny-card-play{
+    width: 350px;
+    height: 400px;
+    position: relative;
+    margin: 0 1em;
+    background: url(../images/Rectangle\ 7.png)center;
+    background-size: cover;
+    color: #FFF;
+    border-radius: 18px;
+    
+}
+.funny-card-play .fa-regular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(74, 71, 68, 0.8);
+    opacity: 0;
+    transition: 0.3s;
+    border-radius: 18px;
+}
+.funny-card-play:hover .fa-regular{
+    opacity: 1;
+}
+.funny-card-play a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 /*Play Section start*/
@@ -348,9 +391,10 @@ body {
     
 }  
 .fa-brands{
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
+    font-size: 2rem;
+    width: 3rem;
+   
+   
 }
 .condition-list ul{
     display: flex;
